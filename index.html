@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-cont">
+            <div class="logo">
+                <img class ="logo-img" src="images/odin-lined.png" alt="odin logo">
+                <h1 class="logo-text">odin</h1>
+            </div>
+            <div class="img-credits">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+        </div>
+        <div class="right-cont">
+            <p class="desc">This form is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p class="desc">You <em>know</em> you want to.</p>
+            <form id="form">
+                <p class="form-text">Let's do this!</p>
+                <div class="columns">
+                    <div class="left-col">
+                        <label for="fname">first name</label>
+                        <input id="fname" class="input">
+                        <label for="email">email</label>
+                        <input type="email" id="email" class="input">
+                        <label for="pass">password</label>
+                        <input type="password" id="pass" class="input">
+                    </div>
+                    <div class="right-col">
+                        <label for="lname">last name</label>
+                        <input id="lname" class="input">
+                        <label for="tel">phone number</label>
+                        <input type="tel" id="tel" class="input">
+                        <label for="conf-pass">confirm password</label>
+                        <input type="password" id="conf-pass" class="input">
+                    </div>
+                </div>
+            </form>
+            <button type="submit" class="submit-btn" form="form">Create Account</button>
+            <p class="log-in-p">Already have an account? <span class="log-in">Log in</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
